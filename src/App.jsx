@@ -6,6 +6,7 @@ import FormEvents from './components/Events'
 import FormValidation from './components/Formvalidation'
 import FormWithAPI from './components/FormwithApis'
 import FormWithLoading from './components/Loadinginstates'
+import BasicHookForm from './components/Basichookform'
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
       <TwoWayBinding />
       <FormEvents />
       <FormValidation /> */}
-      <FormWithAPI/>
-      <FormWithLoading/>
+      {/* <FormWithAPI/>
+      <FormWithLoading/> */}
+      <BasicHookForm/>
     </div>
   )
 }
