@@ -7,6 +7,7 @@ import FormValidation from './components/Formvalidation'
 import FormWithAPI from './components/FormwithApis'
 import FormWithLoading from './components/Loadinginstates'
 import BasicHookForm from './components/Basichookform'
+import ValidatedForm from './components/HookValidation'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       <FormValidation /> */}
       {/* <FormWithAPI/>
       <FormWithLoading/> */}
-      <BasicHookForm/>
+      {/* <BasicHookForm/> */}
+      <ValidatedForm/>
     </div>
   )
 }
