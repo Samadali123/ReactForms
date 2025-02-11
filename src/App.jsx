@@ -5,6 +5,7 @@ import TwoWayBinding from './components/Twowaybinding'
 import FormEvents from './components/Events'
 import FormValidation from './components/Formvalidation'
 import FormWithAPI from './components/FormwithApis'
+import FormWithLoading from './components/Loadinginstates'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <FormEvents />
       <FormValidation /> */}
       <FormWithAPI/>
+      <FormWithLoading/>
     </div>
   )
 }
